@@ -52,6 +52,10 @@ main{
     margin: 0.5em;
 }
 
+li{
+    list-style: none;
+}
+
 #encryptBtn{
     background-color: rgb(201, 200, 200);
     color: rgb(0, 3, 19);
