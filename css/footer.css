@@ -1,0 +1,18 @@
+footer{
+    background-color: rgb(5, 5, 27);
+    color: rgb(207, 207, 207);
+    text-align: center;
+}
+
+.contact{
+    display: block;
+    padding: 1em;
+}
+
+.contact-item{
+    display: inline;
+    color:rgb(207, 207, 207);
+    list-style: none;
+    padding: 1em;
+    margin: 1em;
+}
