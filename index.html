@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Encrypt</title>
+</head>
+<body>
+    <header>
+        <div class="box">
+            <h1 class="title">Text Encrypter</h1>
+        </div>
+    </header>
+    <main id="home">
+        <div class="container">
+            <section class="input-text">
+                <textarea class="text-one" placeholder="Input text here" cols="40" rows="6" ></textarea>
+                <br>
+                <label class="important">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    Uppercase and special characters are not accepted by the encrypter
+                </label>
+                <div class="functionBtns">
+                    <button class="buttons" onclick="encryptBtn()" id="encryptBtn">Encrypt</button>
+                    <button class="buttons" onclick="decryptBtn()" id="decryptBtn">Decrypt</button>
+                </div>
+            </section>
+            <section class="message">
+                <textarea class="text-two" cols="30" rows="8" placeholder="Your message will appear here"></textarea>
+                <div>
+                    <button class="buttons" onclick="copyBtn()" id="copyBtn">Copy</button>
+                </div>
+            </secti0n>
+        </div>
+    </main>
+    <footer id="contact">
+        <div class="contact">
+            <ul class="contact-menu">
+                <p>Made by: Ren</p>
+            <br>
+                <p>You can find me in:</p>
+                <li><a class="contact-item" href="https://github.com/ren-ren-c02"><i class="fa-brands fa-github"></i></a></li>
+                <li><a class="contact-item"  href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

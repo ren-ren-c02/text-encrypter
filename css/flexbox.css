@@ -1,0 +1,28 @@
+/*header*/
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*main*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.input-text, .message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.message{
+    justify-content: center;
+}
+
+
+/*footer*/
